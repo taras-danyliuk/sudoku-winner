@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 51 22" xmlns="http://www.w3.org/2000/svg" fill="rgb(0, 0, 0)">
+  <defs>
+    <path id="path-0" d="M 55.24 118.301 C 69.895 118.301 81.039 118.46 92.168 118.46 C 103.47 120.149 108.589 123.43 114.97 128.268 L 116.206 129.206 C 117.592 130.245 118.885 131.333 120.186 132.468" style="fill: none;"/>
+  </defs>
+  <text style="font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; white-space: pre;" transform="matrix(1, 0, 0, 1, -65.946999, -111.797646)"><tspan x="65.947" y="129.978">D</tspan><tspan x="65.947" dy="1em">​</tspan></text>
+  <text style="font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; white-space: pre;" transform="matrix(1, 0, 0, 1, -68.404999, -198.643646)"><tspan x="80.905" y="216.824">N</tspan><tspan x="80.905" dy="1em">​</tspan></text>
+  <text style="font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; white-space: pre;" x="-37.717" y="18.086" transform="matrix(-1, 0, 0, 1, 0, 0)">L</text>
+  <text style="font-family: Arial, sans-serif; font-size: 20px; font-weight: 700; white-space: pre;" x="35.5" y="18.086">K</text>
+</svg>

@@ -1,24 +1,59 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 body {
-  background: pink;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 65px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+
+h1, h3 {
+  text-align: center;
+  margin-top: 0;
 }
 
 .buttons-wrapper {
+  align-self: flex-start;
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  align-items: center;
+}
+.buttons-label {
+  margin: 0;
+  font-size: 18px;
 }
 .sudoku-button {
-  padding: 10px 15px;
+  padding: 4px 8px;
   font-size: 18px;
-  margin: 0 15px;
+  margin: 0 8px;
   cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid gray;
 }
 
-.controll-wrapper {
+.control-wrapper {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
 }
+
 .start {
   padding: 10px 20px;
   font-size: 21px;
@@ -27,40 +62,40 @@ body {
   border: none;
   cursor: pointer;
   outline: none;
+  border-radius: 4px;
+  width: 150px;
 }
 
 
 
 .field {
-  /*width: 90%;*/
-  /*max-width: 600px;*/
   border-spacing: 0;
   border-collapse: collapse;
   margin: 0 auto;
 }
 
 .row:nth-child(1) .cell {
-  border-top: 1px solid grey;
+  border-top: 1.5px solid black;
 }
 .row:nth-child(3n) .cell {
-  border-bottom: 1px solid grey;
+  border-bottom: 1.5px solid black;
 }
 
 .cell {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   padding: 0;
-  background: wheat;
-  border: 1px solid white;
+  background: #eee;
+  border: 1px solid #909090;
   color: black;
   font-size: 25px;
   text-align: center;
 }
 .cell:first-of-type {
-  border-left: 1px solid grey;
+  border-left: 1.5px solid black;
 }
 .cell:nth-child(3n) {
-  border-right: 1px solid grey;
+  border-right: 1.5px solid black;
 }
 
 .cell.filled {
